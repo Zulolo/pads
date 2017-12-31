@@ -1,0 +1,32 @@
+\t (00:00:00) pad_designer 16.6 S007 (v16-6-112AC) Windows 32
+\t (00:00:00)     Journal start - Sun Sep 25 13:42:30 2016
+\t (00:00:00)         Host=ZULOLO-PC User=Zulolo Pid=5628 CPUs=8
+\t (00:00:00) 
+\i (00:00:03) setwindow form.padedit
+\i (00:00:03) pse_open 
+\i (00:00:08) fillin "via_30_40_cir.pad"
+\i (00:00:14) FORM padedit hole_size_x 3.5 
+\i (00:00:14) FORM padedit layers  
+\i (00:00:15) FORM padedit grid row begin_layer 
+\i (00:00:23) FORM padedit width 4.5 
+\i (00:00:27) FORM padedit grid row default_internal 
+\i (00:00:29) FORM padedit width 4.5 
+\i (00:00:31) FORM padedit grid row end_layer 
+\i (00:00:34) FORM padedit width 4.5 
+\i (00:00:40) pse_save_as 
+\i (00:00:46) fillin "via_35_45_cir.pad"
+\i (00:12:50) pse_open 
+\i (00:13:21) fillin "smd_18x25_rec.pad"
+\i (00:13:21) FORM padedit grid row filmmask_bottom 
+\i (00:13:23) FORM padedit parameters  
+\i (00:13:25) FORM padedit layers  
+\i (00:13:27) FORM padedit grid row begin_layer 
+\i (00:13:31) FORM padedit height 2.4 
+\i (00:13:31) FORM padedit grid row soldermask_top 
+\i (00:13:40) FORM padedit height 2.6 
+\i (00:13:40) FORM padedit grid row pastemask_top 
+\i (00:13:51) FORM padedit height 2.2 
+\i (00:13:56) pse_save_as 
+\i (00:14:00) fillin "smd_18x24_rec.pad"
+\i (04:06:09) pse_exit
+\t (04:06:09)     Journal end - Sun Sep 25 17:48:40 2016
